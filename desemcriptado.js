@@ -27,7 +27,6 @@ const Remplazar = {
 };
 
 let mensajeEncriptado =
-  "^[()`~^*/?`[()^+`-~()#[$()/~()%\\[]()}+[()[{=~¿()=$?%?!?]¡~()¿()`¬^~()[{=~()?+^[]=?()^\\{()*~¡[$[{()¡[()?=[]`\\¬]()¿()[{;+[$_~()`~]=\\]+~";
 
 let mensajeDesifrado = mensajeEncriptado.split('').map(caracter => {
     return Remplazar[caracter] || caracter;
